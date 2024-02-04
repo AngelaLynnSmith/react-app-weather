@@ -7,8 +7,8 @@ function App() {
 			<header className="App-header">
 				<h1>React App Weather</h1>
 				<RefreshWeather />
-      </header>
-      
+			</header>
+
 			<div className="footer">
 				Coded by
 				<a
@@ -19,17 +19,22 @@ function App() {
 					Angela Lynn Smith
 				</a>
 				, is
-				<a href="https://github.com/AngelaLynnSmith/plus-final-project"
+				<a
+					href="https://github.com/AngelaLynnSmith/react-app-weather/"
 					target="_blank"
 					rel="noreferrer">
-						open-sourced on GitHub 
-        </a>
-					, and
-					<a href="https://Netlify.com" target="_blank" rel="noreferrer">
-          hosted on Netlify. </a>
-      </div>
-      </div>
-  );
+					open-sourced on GitHub
+				</a>
+				, and
+				<a
+					href="https://react-app-weather-0204.netlify.app/"
+					target="_blank"
+					rel="noreferrer">
+					hosted on Netlify.{" "}
+				</a>
+			</div>
+		</div>
+	);
 }
 
 export default App;
