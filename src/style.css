@@ -9,7 +9,7 @@ a {
   color: #885df1;
 }
 
-.weather-app {
+.weatherApp {
   background-color: white;
   max-width: 600px;
   margin: 45px auto;
@@ -23,7 +23,7 @@ header {
   padding: 0 0 30px 0;
 }
 
-.search-form-input {
+.searchFormInput {
   background-color: #f7f5fb;
   border: none;
   border-radius: 6px;
@@ -32,7 +32,7 @@ header {
   font-size: 16px;
 }
 
-.search-form-button {
+.searchFormButton {
   background: #885df1;
   padding: 15px 20px;
   border: none;
@@ -46,40 +46,40 @@ main {
   padding: 30px 0;
 }
 
-.weather-app-data {
+.weatherAppData {
   display: flex;
   justify-content: space-between;
 }
 
-.weather-app-city {
+.weatherAppCity {
   margin: 0;
   font-size: 38px;
   line-height: 48px;
 }
 
-.weather-app-details {
+.weatherAppDetails {
   font-size: 16px;
   color: gray;
   line-height: 24px;
   font-weight: 500;
 }
 
-.weather-app-details strong {
+.weatherAppDetails strong {
   color: #f65282;
 }
 
-.weather-app-temperature-container {
+.weatherAppTemperatureContainer {
   display: flex;
 }
 
 
-.weather-app-temperature {
+.weatherAppTemperature {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
 }
 
-.weather-app-unit {
+.weatherAppUnit {
   font-size: 28px;
   margin-top: 6px;
 }
@@ -92,7 +92,7 @@ footer {
   color: rgba(0, 0, 0, 0.6);
 }
 
-.weather-forecast {
+.weatherForecast {
   text-align: center;
   color: #000;
   display: flex;
@@ -100,7 +100,7 @@ footer {
   margin-top: 30px;
 }
 
-.weather-forecast-date {
+.weatherForecastDate {
   text-align: center;
   color: rgba(39, 33, 66, 0.4);
   font-size: 16px;
@@ -108,13 +108,13 @@ footer {
   margin-bottom: 10px;
 }
 
-.weather-forecast-icon {
+.weatherForecastIcon {
   width: 88px;
   height: 88px;
   display: block;
   margin: 0 auto;
 }
-.weather-forecast-temperatures {
+.weatherForecastTemperatures {
   font-size: 13px;
   text-align: center;
   color: #f65282;
@@ -122,13 +122,13 @@ footer {
   display: flex;
   justify-content: center;
 }
-.weather-forecast-temperature {
+.weatherForecastTemperature {
   padding: 0 10px;
 }
-.weather-forecast-temperature-max {
+.weatherForecastTemperatureMax {
   margin: 0 0 0 10px;
 }
-.weather-forecast-temperature-min {
+.weatherForecastTemperatureMin {
   margin: 0 10px;
 }
 strong {
