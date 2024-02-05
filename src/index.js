@@ -1,18 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom/';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import RefreshWeather from "./RefreshWeather";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <RefreshWeather />
-      </React.StrictMode>
-);
-
-    <body>
+function MainContent() {
+	return (
 			<div className="WeatherApp">
 				<header>
 					<form
@@ -59,7 +53,18 @@ root.render(
 						id="forecast"></div>
 				</main>
 			</div>
-		</body>;
+	);
+}
+
+const root = document.getElementById('root');
+ReactDOM.render(
+  <React.StrictMode>
+    <RefreshWeather />
+	</React.StrictMode>,
+	root
+);
+
+
     
 
 // If you want to start measuring performance in your app, pass a function
