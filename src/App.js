@@ -1,15 +1,15 @@
-import RefreshWeather from './Weather';
+import RefreshWeather from './RefreshWeather';
 import './App.css';
 
 function App() {
   return (
 		<div className="App">
-			<header className="App-header">
+			<header className="AppHeader">
 				<h1>React App Weather</h1>
 				<RefreshWeather />
 			</header>
 
-			<div className="footer">
+			<div className="Footer">
 				Coded by
 				<a
 					href="https://github.com/AngelaLynnSmith"

@@ -13,49 +13,49 @@ root.render(
 );
 
     <body>
-			<div className="weather-app">
+			<div className="WeatherApp">
 				<header>
 					<form
-						className="search-form"
+						className="SearchForm"
 						id="search-form">
 						<input
 							type="search"
 							placeholder="Enter a city.."
 							required
 							id="search-form-input"
-							className="search-form-input"
+							className="SearchFormInput"
 						/>
 						<input
 							type="submit"
 							value="Search"
-							className="search-form-button"
+							className="SearchFormButton"
 						/>
 					</form>
 				</header>
 				<main>
-					<div className="weather-app-data">
+					<div className="WeatherAppData">
 						<div>
 							<h1
-								className="weather-app-city"
+								className="WeatherAppCity"
 								id="city"></h1>
-							<p className="weather-app-details">
+							<p className="WeatherAppDetails">
 								<span id="time"></span>,<span id="description"></span>
 								<br />
 								Humidity: <strong id="humidity"></strong>, Wind:{" "}
 								<strong id="wind-speed"></strong>
 							</p>
 						</div>
-						<div className="weather-app-temperature-container">
-							<div className="weather-app-icon"></div>
+						<div className="WeatherAppTemperatureContainer">
+							<div className="WeatherAppIcon"></div>
 							<div id="icon"></div>
 							<div
-								className="weather-app-temperature"
+								className="WeatherAppTemperature"
 								id="temperature"></div>
-							<div className="weather-app-unit">°F</div>
+							<div className="WeatherAppUnit">°F</div>
 						</div>
 					</div>
 					<div
-						className="weather-forecast"
+						className="WeatherForecast"
 						id="forecast"></div>
 				</main>
 			</div>
